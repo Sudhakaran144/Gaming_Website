@@ -1,0 +1,127 @@
+.global{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-details{
+    width: 100%;
+    padding: 6em 8em 10em 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.c-socialmedia {
+     
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.c-socialmedia span{
+    color: #FFF; 
+    font-size: 16px; 
+    font-weight: 400; 
+}
+.c-s-logo{
+    display: flex;
+    position: relative;
+    right: 28px;
+    cursor: pointer;
+}
+.c-v-line{
+    border-right: 2px solid #fff;
+    height: 15vh;
+}
+.c-contact,.c-location{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.c-contact span,.c-location p{
+    color: #FFF; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.c-form{
+    width: 100%;
+     
+}
+.c-form span{
+    color: #FFF; 
+    font-size: 30px; 
+    font-weight: 200; 
+    display: flex;
+    justify-content: center;
+}
+.c-form p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 189.5%; /* 24.635px */
+}
+.c-form form{
+    width: 100%;
+    padding: 5% 0;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    width: 60%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.f-name,.l-name,.email,.msg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.f-name input,.l-name input,.email input,.msg textarea{
+   
+    border-radius: 9px;
+    border: 0.6px solid #CECECE;
+    background: rgba(255, 255, 255, 0.07);
+    padding: 20px;
+    width: 100%;
+}
+form label{
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175.4%; /* 24.556px */
+    letter-spacing: -0.3px;
+}
+.email,.msg{
+    width: 60%;
+}
+.c-btn{
+    border-radius: 10px;
+    background: #DC7000;
+    color: #FFF; 
+    font-size: 16px; 
+    font-weight: 400; 
+    padding: 15px 48px;
+    border: none;
+    cursor: pointer; 
+    position: relative;
+    left: 260px;
+    top: 30px;
+}
+ 

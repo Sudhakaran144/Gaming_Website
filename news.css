@@ -1,0 +1,139 @@
+.search{
+    width: 45%;
+    border-radius: 10px;
+    background: #1C140F;
+    padding: 9px 50px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%; /* 30.32px */
+}
+.search::placeholder{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%;
+}
+.s-icon{
+    position: relative;
+    bottom: 62px;
+    right: 205px;
+}
+.n-content{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 0em 3em 7em 7em ;
+}
+.n-c-left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.n-g-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.min{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 20px;
+}
+.min button{
+    padding: 9px 32px;
+    border: none;
+    background: #2351F5;
+    color: #FFFCFC; 
+    font-size: 16px; 
+    font-weight: 400; 
+}
+.n-g-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+}
+.n-g-content h1{  
+    color: #FFF; 
+    font-size: 30px; 
+    font-weight: 500; 
+}
+.n-g-content p{
+    width: 100%;
+    color: #FFF; 
+    font-size: 17px; 
+    font-weight: 400; 
+}
+.n-c-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.n-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: #fff;
+}
+.n-c-button button{
+    
+    color: #FFF; 
+    font-size: 14px; 
+    font-weight: 400;
+    padding: 9px 25px; 
+    border: none;
+    margin-right: 20px;
+}
+.news-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn6{
+    background: #FF8484;
+}
+.btn7,.btn10{
+    background: #FF7C32;
+}
+.btn8{
+    background: #2351F5;
+}
+.btn9,.btn5{
+    background: #23A54F;
+}
+.btn11{
+    background: #9921C3;
+}
+.active3{
+    position: absolute;
+    width: 2.5%; 
+    padding-bottom: 3px;
+    border-bottom: 4px solid #DC7000;   
+    top: 65px;
+    right: 270px;
+     
+}
+.active3::before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #DC7000;
+    position: absolute;
+    z-index: 100;
+    left: 40px;
+    top: 2px;
+}

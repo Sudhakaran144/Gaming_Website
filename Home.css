@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    background: #000;
+    padding: 0% 4%;
+    overflow-x: hidden;
+}
+.section-1{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(181deg, #000 0.82%, #432809 129.1%);
+    backdrop-filter: blur(7px);
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 410px;
+    z-index: -1;
+    background: url("Images/Home/joy_stick\ 1.svg") center no-repeat;
+    background-size:contain ;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 30px;
+    
+}
+.nav-item{
+     
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.active{
+    position: absolute;
+    width: 3%; 
+    padding-bottom: 3px;
+    border-bottom: 4px solid #DC7000;
+    top: 65px;
+    left: 610px;
+     
+}
+.active::before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #DC7000;
+    position: absolute;
+    z-index: 100;
+    left: 50px;
+    top: 2px;
+}
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.nav-item ul li{
+    list-style: none;
+    color: #FFF;
+}
+.nav-item  a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+.btn1{
+    border-radius: 6px;
+    background: #FA9021;
+    padding: 11px 27px;
+    color: #FFF; 
+    font-size: 13px; 
+    font-weight: 400; 
+}
+.logo h1{
+    color: #FFF;
+    font-size: 29px;
+    font-weight: 900;
+}
+.h-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 8%;
+    width: 100%;
+    color: #fff;
+}
+.h-details h4{
+    color: #E87D0E;
+    font-size: 20px;  
+    font-weight: 700;  
+}
+.h-details-left{
+    width: 40%;
+}
+.h-details h1{
+    color: #FFF; 
+    font-size: 50px; 
+    font-weight: 700;
+    line-height: 155.2%; 
+    margin: 30px 0;
+}
+.h-details p{
+    color: #FFF; 
+    font-size: 16px; 
+    font-weight: 500;
+    line-height: 200%; /* 32px */
+}
+.btn2{
+    border-radius: 40px;
+    background: linear-gradient(92deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    color: #FFF; 
+    font-size: 16px; 
+    font-weight: 500; 
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin: 30px 0;
+}
+.h-details-img{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.trending{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 8%;
+    gap: 150px;
+}
+.t-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.t-buttom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.t-games{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.t-top h1{
+    color: #FFF; 
+    font-size: 31px; 
+    font-weight: 700;
+ 
+}
+.btn{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+    color: #FFF; 
+    font-size: 20px; 
+    font-weight: 500;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
+.t-games span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF; 
+    font-size: 22px; 
+    font-weight: 500;  /* 41.25px */
+    gap: 10px;
+}
+.title{
+    padding:  0 23%;
+}
+.title h1{
+    color: #FFF;
+    text-align: center; 
+    font-size: 35px; 
+    font-weight: 600; 
+    text-align: center;
+}
+.b-img{
+    padding: 4% 8%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+}
+.b-img h1{
+    color: #FFF; 
+    font-size: 30px; 
+    font-weight: 600; 
+}
+.b-img p{
+    width: 50%;
+    color: #FFF; 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 187.5%; /* 30px */
+}
+.section-2{
+    width: 100%;
+    height: inherit;
+    background: url("Images/Home/Rectangle\ 5.jpg") center no-repeat;
+    background-size: cover;
+    padding: 5em 3em;
+}
+.s-title h1{
+    padding:  0 15%;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center; 
+    font-weight: 600; 
+}
+.s-title p{
+    padding:  0 18%;
+    color: #FFF;
+    text-align: center; 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 187.5%;
+    margin: 50px 0;
+    
+}
+.p-category{
+    margin-top: 100px;
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.p-c-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.p-c-box p{
+    color: #FFF;
+    text-align: center; 
+    font-size: 16px; 
+    font-weight: 500; 
+}
+.section-3{
+    width: 100%;
+    height: auto; 
+    background: linear-gradient(149deg, #090300 18.81%, rgba(9, 3, 0, 0.00) 199.4%);
+    backdrop-filter: blur(2px);
+    padding: 5% 8%;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.projects h1{
+    color: #FFF;
+    text-align: center; 
+    font-size: 30px; 
+    font-weight: 700;
+    line-height: 187.5%;  
+}
+.projects p{
+    max-width: 40%;
+    color: #FFF;
+    text-align: center; 
+    font-size: 14px; 
+    font-weight: 400;
+    line-height: 187.5%; /* 26.25px */
+}
+.p-img{
+    margin:  50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.p-img img{
+    cursor: pointer;
+}
+.sub{
+    padding: 4% 0;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.sub h1{
+    color: #FFF; 
+    font-size: 30px; 
+    font-weight: 600; 
+}
+.sub span{
+    width: 50%;
+    color: #FFF; 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 187.5%; /* 30px */
+}
+.sub-container{
+    width: 100%;
+    padding: 35px 30px;
+    border-radius: 15px;
+    background: #1C140F;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-left{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.s-right{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.s-left h1{
+    color: #FFF; 
+    font-size: 30px; 
+    font-weight: 500;
+    line-height: normal;
+}
+.s-left p{
+    width: 75%;
+    color: #FFF; 
+    font-size: 17px; 
+    font-weight: 400;
+    line-height: normal;
+}
+.s-right input{
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 14px 20px;
+    outline: 0;
+    border: none;
+    color: #898989;
+    font-size: 13px; 
+    font-weight: 300; 
+}
+.s-right button{
+    position: absolute;
+    border-radius: 8px;
+    background: #DC7000;
+    padding: 8px 22px;
+    border: none;
+    color: #FFF;
+    text-align: center; 
+    font-size: 13px; 
+    font-weight: 400; 
+    right: 150px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #070707;
+   
+    color: #fff;
+}
+footer li{
+    list-style: none;
+}
+.f-top{
+    padding: 5% 8%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.logo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.logo h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 153.5%; /* 36.84px */
+}
+.logo p{
+    width: 90%;
+    color: #FFF; 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: normal;
+}
+.f-about{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.f-about ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.f-contact{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+ 
+.social-media{
+    width: 25%;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    top: 150px;
+    cursor: pointer;
+}
+hr{
+    color: #fff;
+}
+.f-bottom{
+    color: #FFF; 
+    padding: 2% 0;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190.6%; /* 24.778px */
+}
